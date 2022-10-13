@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    display: block;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+    
+}
+.myinput:hover{
+    
+    box-shadow: -7px -5px 10px black ;
+}
+.btn{
+    padding: 10px 28px;
+    font-size: 18px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 7px 5px 10px black;
+
+
+}
+.btn:hover{
+ color: red;
+}
+.container{
+    min-height: 73vh;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+   
+
+}
+#card{
+   color: aliceblue;
+    font-weight: bold;
+    margin: 20px 10px;
+    padding: 10px 10px;
+
+}

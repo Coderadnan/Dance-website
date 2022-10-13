@@ -1,0 +1,61 @@
+//- index.pug
+doctype html
+html
+  head
+    title DJ Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+          div#logo 
+            h2 DjD
+             
+            li #[a(href="/") Home]  
+            li #[a(href="/") About ]
+            //- li #[a(href="/") Services]
+            li #[a(href="/") Contact Us]
+    section#introSection 
+        div Welcome to Dj Dance Academy
+        div.small Any Body Can Dance
+
+    section#missionSection 
+        h3 Our Mssion      
+        div.card 
+          h3 Dance Perfection
+          div.card-box
+          div.card-img 
+              img(src="/static/images/1.webp")
+
+          div.card-content 
+              p “Dance is the hidden language of the soul.”  
+        div.card 
+          h3 Dance The Way You Like
+          div.card-box 
+          div.card-img 
+              img(src="/static/images/2.webp")
+
+          div.card-content 
+              p "Forget your troubles and dance!" 
+        div.card 
+          h3 Expert Teaching
+          div.card-box 
+          div.card-img 
+              img(src="/static/images/3.jpg")
+
+          div.card-content 
+              p "I dance but I'm not a dancer."
+    section#sponsersSection 
+        h3 Our Sponsers
+          div#sponsers 
+            img(src="/static/images/microsoft.webp" ,alt="Sponser Image", class="spImage")
+            img(src="/static/images/apple.png" ,alt="Sponser Image", class="spImage")
+            img(src="/static/images/hp.png" ,alt="Sponser Image", class="spImage")
+            img(src="/static/images/skype.png" ,alt="Sponser Image", class="spImage")
+     
+    footer#footer 
+        | Copyright © 2020 DJdanceacedmy.com | All rights reserved      
+
+
+    script
+      include ../static/index.js

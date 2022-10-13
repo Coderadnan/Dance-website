@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/styleabout.css
+
+block content 
+  div.container 
+    h2 Introducing DJ Dance Academy 
+    div.box 
+      div.img 
+        img(src="/static/images/break_dance_PNG59.png")
+      div.container_box 
+        p  DJ Dance Academy is the best dance Academy in Shahjahanpur . Here you learn many forms of Dance like Hip-Hop , Kathak, Bharatnatyam, Classical. etc.... 
+  section#aboutsection 
+    div.card 
+      h3 Classical Dance!
+      div.card-box 
+      div.card-img 
+        img(src="/static/images/classical.png", alt="")
+      div.card-content 
+        p 
+
+    div.card 
+      h3 Hip-Hop! Dance
+      div.card-box 
+      div.card-img 
+        img(src="/static/images/1d.jpg", alt="")
+      div.card-content 
+        p    
+
+    div.card 
+      h3 Dance the way you like! 
+      div.card-box 
+      div.card-img 
+        img(src="/static/images/dance-1235587_1280.jpg", alt="")
+      div.card-content 
+        p      
